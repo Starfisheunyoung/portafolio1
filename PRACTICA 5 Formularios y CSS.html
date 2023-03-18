@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="PRACTICA 5 Formularios y CSS.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1 align="center">Servicios de Internet y Telefonía</h1>
+    <p align="center">Contrato de servicios</p>
+    <fieldset broad="75%">
+        <legend>Datos del cliente</legend>
+        <table align="center">
+        <tbody>
+            <tr>
+                <td><label for="Nombre">Nombre:</label></td>
+                <td><label for="Apellido paterno">Apellido paterno:</label></td>
+                <td><label for="Apellido materno">Apellido materno:</label></td>
+            </tr>        
+            <tr>
+                <td><input type="text" name="Nombre" id="Nombre" maxlength="12" placeholder="Nombre" size="15" title="Nombre"/><br/></td>
+                <td><input type="text" name="Apellido paterno" id="Apellido paterno" maxlength="12" placeholder="Apellido paterno" 
+                size="15" title="Apellido paterno"/><br/></td>
+                <td><input type="text" name="Apellido materno" id="Apellido materno" maxlength="12" placeholder="Apellido materno" 
+                size="15" title="Apellido materno"/><br/></td>
+            </tr>
+            <tr>
+                <td>
+                    Ciudad <br/>
+                    <select size="5" multiple>
+                     <option value="1">San Luis Potosí</option>
+                     <option value="2">Matehuala</option>
+                     <option value="3">Cd. Valles</option>
+                     <option value="4">Querétaro</option>
+                     <option value="5">Guanajuato</option>
+                    </select>
+                </td>
+            </tr> 
+        </tbody>    
+        </table>   
+    </fieldset>
+    <fieldset>
+        <legend>Servicios a contratar</legend>
+        <table align="center">
+            <tbody>
+                <tr>
+                    <td><label for="select">Selecciona el tipo de servicio a contratar</label><br/></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="forma1">Línea Telefónica</label>
+                        <input type="radio" name="forma1" id="forma1" value="tel"/>
+                    </td>
+                    <td>
+                        <label for="forma2">Servicio de Internet</label>
+                        <input type="radio" name="forma2" id="forma2" value="int"/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>           
+    </fieldset>
+    <fieldset>
+        <legend>Forma de pago</legend>
+        <table align="center">
+            <tbody>
+                <tr>
+                    <td>
+                        Elige la fomra de pago <br/>
+
+                        <label for="for=TDC">TDC:</label>
+                        <input type="radio" name="TDC" id="TDC" value="TDC"/><br/>
+
+                        <label for="for=deb">TArjeta de Débito:</label>
+                        <input type="radio" name="deb" id="deb" value="deb"/><br/>
+
+                        <label for="for=efe">Pago en Efectivo:</label>
+                        <input type="radio" name="efe" id="efe" value="efe"/><br/>
+
+                        <label for="for=che">PAgo mediante Cheque:</label>
+                        <input type="radio" name="che" id="che" value="che"/><br/>
+
+                        <label for="for=ban">Transferencia bancaria:</label>
+                        <input type="radio" name="ban" id="ban" value="ban"/><br/>
+
+                        <label for="for=db">Depósito bancario:</label>
+                        <input type="radio" name="db" id="db" value="db"/><br/>
+
+                        <label for="for=ox">Pago en Oxxo:</label>
+                        <input type="radio" name="ox" id="ox" value="ox"/><br/><br/>
+
+                        <input type="submit" name="enviar" 
+                        id="enviar" value="Enviar datos"/>
+                
+                        <input type="reset" name="borrar" id="borrar" value="Borrar datos"/>
+                    </td>     
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>
+    <h2 id="h1" align="center">Práctica 5</h2>
+    <h3 id="h2" align="center">HTML 5 y CSS</h3>
+    <h3 id="h3" align="center">Primavera 2023</h3>
+
+</body>
+</html>
