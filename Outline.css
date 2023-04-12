@@ -1,0 +1,70 @@
+#Encabezado1
+{
+    outline-style: dotted;
+    outline-color: rgb(179, 231, 163);
+    outline-offset: 5px;
+    outline-width: 5px;
+}
+#Encabezado2
+{
+    outline-style: dashed;   
+    outline-color: rgb(141, 141, 141);
+    outline-offset: 5px;
+    outline-width: 5px;
+}
+#Encabezado3
+{
+    outline-style: solid;
+    outline-color: rgb(236, 183, 214);
+    outline-offset: 5px;
+    outline-width: 5px;
+}
+#Encabezado4
+{
+    outline-style: double; 
+    outline-color: rgb(239, 191, 133);  
+    outline-offset: 5px;
+    outline-width: 5px;
+}
+#Encabezado5
+{
+    outline-style: groove;
+    outline-color: rgb(215, 153, 235);
+    outline-offset: 5px;
+    outline-width: 5px;
+}
+#Encabezado6
+{
+    outline-style: ridge;
+    outline-color: rgb(237, 211, 134);
+    outline-offset: 5px;
+    outline-width: 5px;
+}
+#Encabezado7
+{
+    outline-style: inset;
+    outline-color: rgb(235, 134, 134);
+    outline-offset: 5px;
+    outline-width: 5px;
+}
+#Encabezado8
+{
+    outline-style: outset;
+    outline-color: rgb(236, 134, 192);
+    outline-offset: 5px;
+    outline-width: 5px;
+}
+#Encabezado9
+{
+    outline-style: none;
+    outline-color: rgb(135, 237, 166);
+    outline-offset: 5px;
+    outline-width: 5px;
+}
+#Encabezado10
+{
+    outline-style: hidden; 
+    outline-color: rgb(148, 148, 234);  
+    outline-offset: 5px;
+    outline-width: 5px;
+}
