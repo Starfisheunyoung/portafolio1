@@ -1,0 +1,78 @@
+h1,a
+{
+    display: block;
+    width: 400px;
+    padding: 5px;
+    box-align: right;
+    position: light;
+    margin: 15px auto;
+    background:rgb(251, 249, 249);
+    -moz-border-radius:20px ;
+    -webkit-border-radius:20px;
+    border-radius: 20px;
+}
+nav, ul, li, #o
+{
+    display: block;
+    font-family: 'fuente:_2', cursive;
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    width: 180px;
+    padding: 10px;
+    cursor: pointer;
+}
+li.ser > a
+{
+    background-color: #0197fb;
+}
+nav, ul, li, p
+{
+    display: block;
+    font-family: 'fuente:_2', cursive;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    width: 180px;
+    padding: 10px;
+    cursor: pointer;
+}
+li.ser > p
+{
+    background-color: #0197fb;
+}
+nav ul li:hover p
+{
+    font-family: 'fuente_2', cursive;
+    font-size: x-large;
+    color: aliceblue;
+    width: 180px;
+}
+nav ul li.serv:hover .servicios
+{
+    display: block;
+    width: 200px;
+}
+.servicios
+{
+    display: none;
+    position: relative;
+    width: 200px;
+    /*background-color: #0197fb;*/
+}
+.servicios p
+{
+    display: block;
+    text-align: left;
+    padding: 10px;
+    width: 200px;
+    box-sizing: border-box;
+}
+.servicios p:hover
+{
+    background-color: #0197fb;
+}
+
+
