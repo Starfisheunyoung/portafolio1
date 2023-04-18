@@ -2,3 +2,7 @@ a
 {
     color: rgb(198, 198, 198);
 }
+td,h2,legend
+{
+    color: white;
+}

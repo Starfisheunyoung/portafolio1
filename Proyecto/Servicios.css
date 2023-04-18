@@ -6,3 +6,19 @@ h2
 {
     color: blanchedalmond;
 }
+#Encabezado1
+{
+    display: block;
+    width: 400px;
+    padding: 5px;
+    border:5px solid rgb(4, 7, 0);
+    text-align: center;
+    margin: 15px auto;
+    background:rgb(251, 251, 251);
+    -moz-border-radius:20px ;
+    -webkit-border-radius:20px;
+    border-radius: 20px;
+    background: -moz-linear-gradient(bottom,#81cfff,#7508f1);
+    background: -webkit-linear-gradient(bottom,#81cfff,#7508f1);
+    background: linear-gradient(bottom,#81cfff,#7508f1);
+}

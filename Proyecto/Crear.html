@@ -33,17 +33,63 @@
             <th>
                 <a href="Ubicacion.html">Ubicacion</a>
             </th>
-            <th>
-                <a href="Contactos.html">Contactos</a>
-            </th>
+
             <th>
                 <a href="Crear.html">Crear una cuenta</a>
             </th>
             <th>
                 <a href="Inicio.html">Iniciar seccion</a>
             </th>
+            <th>
+                <a href="Preguntas.html">Preguntas frecuentes</a>
+            </th>
             </tr>
         </thead>
-    </table>    
+    </table> 
+    <h2 align="center">Registro de cliente</h2>
+    <fieldset>
+        <legend align="center">Informacion del ususario</legend>
+        <table align="center">
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="Nombre">Nombre:</label><br>
+                        <input type="text" name="nombre" id="nombre" maxlength="25" placeholder="Nombre"/><br/>
+
+                        <label for="ap">Apellido paterno:</label><br>
+                        <input type="text" name="ap" id="ap" maxlength="25" placeholder="Apellido paterno"><br/>
+
+                        <label for="am">Apellido materno:</label><br>
+                        <input type="text" name="am" id="am" maxlength="25" placeholder="Apellido materno"><br/>
+
+                        <label for="E-mail">E-mail:</label><br/>
+                        <input type="text" name="E-mail" id="E-mail" maxlength="25" placeholder="E-mail"><br/>
+
+                        <label for="Use">Nombre de usuario:</label><br>
+                        <input type="text" name="use" id="use" maxlength="25" placeholder="Usuario"><br/>
+
+                        <label for="pass">Contraseña:</label><br/>
+                        <input type="text" name="pass" id="pass" maxlength="25" placeholder="Password"><br/>
+
+                        <label for="repass">Confirmar contraseña:</label><br/>
+                        <input type="text" name="repass" id="repass" maxlength="25" placeholder="Password"><br/>
+
+                        <label for="fechahora">Fecha de nacimiento:</label><br/>
+                        <input type="date" name="fecha" id="fecha"><br/><br/>
+
+                        <input type="checkbox" name="forma1" id="forma1" value="tdc"/>
+                        <label for="forma1">Acepta todos los terminos se segurirdad.</label><br/>
+
+                        <input type="checkbox" name="forma1" id="forma1" value="tdc"/>
+                        <label for="forma1">Acepta recibir notificaciones y promociones.</label><br/><br/>
+
+                        <input type="submit" name="enviar" id="enviar" value="Incribirse"/><br/><br/>
+
+                        <p>¿Ya tienes una cuenta?<b><u><i><a href="Inicio.html">Iniciar seccion</a></i></u></b></p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>       
 </body>
 </html>
