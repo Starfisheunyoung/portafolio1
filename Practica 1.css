@@ -1,0 +1,85 @@
+#uno
+{
+    display: block;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid rgb(4, 7, 0);
+    text-align: center;
+    margin: 15px auto;
+    background:rgb(70, 148, 250);
+    -moz-border-radius:20px ;
+    -webkit-border-radius:20px;
+    border-radius: 20px;
+    
+    box-shadow: rgb(70, 148, 250)10px 15px 12px inset;
+    -mos-box-shadow: rgb(70, 148, 250)10px 15px 12px inset;
+    -webkit-box-shadow: rgb(70, 148, 250)10px 15px 12px inset;
+}
+#dos
+{
+    display: block;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid rgb(4, 7, 0);
+    text-align: center;
+    margin: 15px auto;
+    background:rgb(70, 148, 250);
+    -moz-border-radius:20px ;
+    -webkit-border-radius:20px;
+    border-radius: 20px;
+    
+    box-shadow: rgb(70, 148, 250)10px 15px 12px inset;
+    -mos-box-shadow: rgb(70, 148, 250)10px 15px 12px inset;
+    -webkit-box-shadow: rgb(70, 148, 250)10px 15px 12px inset;
+}
+#tres
+{
+    display: block;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid rgb(4, 7, 0);
+    text-align: center;
+    margin: 15px auto;
+    background:rgb(70, 148, 250);
+    -moz-border-radius:20px ;
+    -webkit-border-radius:20px;
+    border-radius: 20px;
+    
+    box-shadow: rgb(70, 148, 250)10px 15px 12px inset;
+    -mos-box-shadow: rgb(70, 148, 250)10px 15px 12px inset;
+    -webkit-box-shadow: rgb(70, 148, 250)10px 15px 12px inset;
+}
+#cuatro
+{
+    display: block;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid rgb(4, 7, 0);
+    text-align: center;
+    margin: 15px auto;
+    background:rgb(70, 148, 250);
+    -moz-border-radius:20px ;
+    -webkit-border-radius:20px;
+    border-radius: 20px;
+    
+    box-shadow: rgb(70, 148, 250)10px 15px 12px inset;
+    -mos-box-shadow: rgb(70, 148, 250)10px 15px 12px inset;
+    -webkit-box-shadow: rgb(70, 148, 250)10px 15px 12px inset;
+}
+#cinco
+{
+    display: block;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid rgb(4, 7, 0);
+    text-align: center;
+    margin: 15px auto;
+    background:rgb(70, 148, 250);
+    -moz-border-radius:20px ;
+    -webkit-border-radius:20px;
+    border-radius: 20px;
+    
+    box-shadow: rgb(70, 148, 250)10px 15px 12px inset;
+    -mos-box-shadow: rgb(70, 148, 250)10px 15px 12px inset;
+    -webkit-box-shadow: rgb(70, 148, 250)10px 15px 12px inset;
+}
