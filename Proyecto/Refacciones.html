@@ -7,6 +7,7 @@
     <title>Refacciones</title>
     <link rel="icon" type="image/jpg" href="Mi proyecto.png"/>
     <link rel="stylesheet" href="Refacciones.css">
+    <script src="Comentario.js"></script>
     <style></style>
 </head>
 <body>
@@ -49,9 +50,16 @@
         var vsid = "si253601d2738b7";
         (function() { 
         var vsjs = document.createElement('script'); vsjs.type = 'text/javascript'; vsjs.async = true; vsjs.setAttribute('defer', 'defer');
-         vsjs.src = 'https://www.virtualspirits.com/vsa/chat.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vsjs, s);
+        vsjs.src = 'https://www.virtualspirits.com/vsa/chat.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vsjs, s);
         })();
-       </script>   
+    </script>
+    <section id="Comentarios">
+        <form name="Comentarios">
+        <p>Enviar comentarios:<br><input type="text" name="comentarios" id="comentarios"></p>
+        <p><input type="button" name="grabar" id="grabar"
+        value="Enviar comentario"></p>
+        </form>
+    </section>
 </body>
 </html>
