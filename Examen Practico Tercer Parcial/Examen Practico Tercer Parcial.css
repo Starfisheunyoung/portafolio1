@@ -1,0 +1,12 @@
+#formu
+{
+    display:inline;
+    width: 500px;
+    padding: 10px;
+    border:5px solid rgb(144, 239, 252);
+
+    margin: 15px auto;
+    background:-moz-radial-gradient(bottom,ellipse,rgb(144, 239, 252) 0%,rgb(144, 239, 252) 100%) ;
+    background:-webkit-radial-gradient(bottom,ellipse,rgb(144, 239, 252) 0%,rgb(144, 239, 252) 100%) ;
+    background:radial-gradient(bottom,ellipse,rgb(144, 239, 252) 0%,rgb(144, 239, 252) 100%) ;
+}
