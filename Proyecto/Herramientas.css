@@ -2,3 +2,103 @@ a
 {
     color: rgb(198, 198, 198);
 }
+h2
+{
+    color: blanchedalmond;
+}
+#Encabezado1
+{
+    display: block;
+    width: 400px;
+    padding: 5px;
+    border:5px solid rgb(4, 7, 0);
+    text-align: center;
+    margin: 15px auto;
+    background:rgb(251, 251, 251);
+    -moz-border-radius:20px ;
+    -webkit-border-radius:20px;
+    border-radius: 20px;
+    background: -moz-linear-gradient(bottom,#009dff,#ee4a4a);
+    background: -webkit-linear-gradient(bottom,#009dff,#ee4a4a);
+    background: linear-gradient(bottom,#009dff,#ee4a4a);
+}
+#Encabezado2
+{
+    display: block;
+    width: 400px;
+    padding: 5px;
+    border:5px solid rgb(4, 7, 0);
+    text-align: center;
+    margin: 15px auto;
+    background:rgb(251, 251, 251);
+    -moz-border-radius:20px ;
+    -webkit-border-radius:20px;
+    border-radius: 20px;
+    background: -moz-linear-gradient(bottom,#009dff,#ee4a4a);
+    background: -webkit-linear-gradient(bottom,#009dff,#ee4a4a);
+    background: linear-gradient(bottom,#009dff,#ee4a4a);
+}
+#Encabezado3
+{
+    display: block;
+    width: 400px;
+    padding: 5px;
+    border:5px solid rgb(4, 7, 0);
+    text-align: center;
+    margin: 15px auto;
+    background:rgb(251, 251, 251);
+    -moz-border-radius:20px ;
+    -webkit-border-radius:20px;
+    border-radius: 20px;
+    background: -moz-linear-gradient(bottom,#009dff,#ee4a4a);
+    background: -webkit-linear-gradient(bottom,#009dff,#ee4a4a);
+    background: linear-gradient(bottom,#009dff,#ee4a4a);
+}
+#Encabezado4
+{
+    display: block;
+    width: 400px;
+    padding: 5px;
+    border:5px solid rgb(4, 7, 0);
+    text-align: center;
+    margin: 15px auto;
+    background:rgb(251, 251, 251);
+    -moz-border-radius:20px ;
+    -webkit-border-radius:20px;
+    border-radius: 20px;
+    background: -moz-linear-gradient(bottom,#009dff,#ee4a4a);
+    background: -webkit-linear-gradient(bottom,#009dff,#ee4a4a);
+    background: linear-gradient(bottom,#009dff,#ee4a4a);
+}
+#Encabezado5
+{
+    display: block;
+    width: 400px;
+    padding: 5px;
+    border:5px solid rgb(4, 7, 0);
+    text-align: center;
+    margin: 15px auto;
+    background:rgb(251, 251, 251);
+    -moz-border-radius:20px ;
+    -webkit-border-radius:20px;
+    border-radius: 20px;
+    background: -moz-linear-gradient(bottom,#009dff,#ee4a4a);
+    background: -webkit-linear-gradient(bottom,#009dff,#ee4a4a);
+    background: linear-gradient(bottom,#009dff,#ee4a4a);
+}
+#Encabezado6
+{
+    display: block;
+    width: 400px;
+    padding: 5px;
+    border:5px solid rgb(4, 7, 0);
+    text-align: center;
+    margin: 15px auto;
+    background:rgb(251, 251, 251);
+    -moz-border-radius:20px ;
+    -webkit-border-radius:20px;
+    border-radius: 20px;
+    background: -moz-linear-gradient(bottom,#009dff,#ee4a4a);
+    background: -webkit-linear-gradient(bottom,#009dff,#ee4a4a);
+    background: linear-gradient(bottom,#009dff,#ee4a4a);
+}

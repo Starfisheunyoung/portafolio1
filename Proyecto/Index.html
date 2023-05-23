@@ -29,9 +29,6 @@
                 <a href="Refacciones.html">Refacciones</a>
             </th>
             <th>
-                <a href="Accesorios.html">Accesorios</a>
-            </th>
-            <th>
                 <a href="Ubicacion.html">Ubicacion</a>
             </th>
             <th>
@@ -155,7 +152,7 @@
     <table align="center">
         <thead>
             <tr>
-            <h2 align="center">Contactos</h2>
+            <h2 align="center"><a href="Ubicacion.html"></a> Contactos</h2>
             </tr>
         </thead>
         <tbody>
@@ -197,9 +194,7 @@
         </tr>
     </tbody>
     </table>     
-    <footer>
-       <h3 align="right"> &copy; Tecnoblue 2023.</h3> 
-    </footer>
+
     <script type="text/javascript">
         var vsid = "si253601d2738b7";
         (function() { 
@@ -208,12 +203,19 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(vsjs, s);
         })();
     </script>
-    <section id="Comentarios">
-        <form name="Comentarios">
-        <p>Enviar comentarios:<br><input type="text" name="comentarios" id="comentarios"></p>
-        <p><input type="button" name="grabar" id="grabar"
-        value="Enviar comentario"></p>
+    <div>
+        <form action="mensajero.php" method="post">
+        <leabel for="nombre">Nombre del usuario</leabel>
+        <input type="text" id="nombre" name="nombre"  placeholder="Email">
+        
+        <leabel for="mensaje">Comentario</leabel></br>
+        <textarea id="mensaje" name="mensaje"></textarea>
+        
+        <input type="submit" id="submit" nam="submit" value="Enviar Formulario">
         </form>
-    </section>
+    </div>
+    <footer>
+        <h3 align="right"> &copy; Tecnoblue 2023.</h3> 
+     </footer>
 </body>
 </html>
